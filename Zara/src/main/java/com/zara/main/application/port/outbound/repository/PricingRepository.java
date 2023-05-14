@@ -49,7 +49,6 @@ public class PricingRepository implements PricingService {
             System.out.println("borrar`");
             return "borrado correctamente"; // Return the deletion message
         } else {
-            System.out.println("no entra`");
             throw new NoContentException("No se ha encontrado el price que desea borrar");
         }
     }
